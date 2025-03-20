@@ -1,0 +1,68 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #EFEFF0;
+  margin: 1rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: calc(800px - 4rem);
+  height: calc(525px - 1rem);
+  margin: 2% auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  background: white;
+  overflow: scroll;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #0066FF;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 700; 
+  color: #000;
+}
+
+table,
+table * {
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  margin: 1rem 0;
+}
+
+th {
+  background: #0066ff;
+  top: 0;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background: #f7f9fa;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+td,
+th {
+  padding: 0.5rem;
+}
+
+button,
+input[type="file"]::file-selector-button {
+  margin: 1rem 0.5rem 0.5rem 0;
+  background: #0066ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
